@@ -2,7 +2,7 @@ package Exercise1;
 
 public  class Milk extends PopularGrocery{
     public Milk(int quantity, int discountThreshold, int popularityLevel){
-        super();
+        super(popularityLevel);
         this.quantity = quantity;
         this.discountThreshold = discountThreshold;
         this.householdLimit = 20;
