@@ -4,7 +4,7 @@ public abstract class PopularGrocery extends GroceryItem{
     int popularityLevel;
     int quantity;
 
-    public PopularGrocery(){
+    public PopularGrocery(int popularityLevel){
         super();
         isPopular = true;
         this.popularityLevel = popularityLevel;
