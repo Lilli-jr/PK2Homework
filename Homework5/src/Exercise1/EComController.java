@@ -18,7 +18,10 @@ public class EComController {
 
 
 }
-//Es ist keine Dependency Injection, da Objekte in die Konstruktor übergeben werden (Customer bekommt ein Profile und Profil
+//Es ist Dependency Injection, da Objekte in die Konstruktor übergeben werden (Customer bekommt ein Profile und Profil
 // ein ShippingInfo
 
 //Law of Demeter: wir können in der Customer Klasse in einer Methode die Informationen abrufen (getShippingInfo(){ return profile.getShippingInfo().getCity();}
+// man sollte nicht mit mehreren methoden von unterschiedlichen Klassen, auf etwas zuzugreifen
+// wie kann ich das verhindern kann: indem ich eine extra Methode schreibe, dass ich dort auf andere Klassenmoethoden zugreifen kann.
+// Also eine extra Methode in einer klasse, damit man von außen nicht auf soviele Klassen zugreifen muss
