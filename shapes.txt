@@ -1,0 +1,2 @@
+Circle: radius=3.5
+Rectangle: width=3.3, length=5.5
