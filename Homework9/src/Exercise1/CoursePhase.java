@@ -5,7 +5,7 @@ public enum CoursePhase {
     ONGOING("Course is in progress"),
     FINISHED("Course had ended");
 
-    private String message;
+    private final String message;
 
     CoursePhase(String message) {
         this.message = message;
